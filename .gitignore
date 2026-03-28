@@ -1,0 +1,35 @@
+# WordPress
+wp-config.php
+wp-config-sample.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backups/
+wp-content/wp-rocket-config/
+wp-content/debug.log
+wp-content/elementor/css/
+
+# Core WordPress
+wp-admin/
+wp-includes/
+wp-content/themes/twenty*/
+wp-content/themes/index.php
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# LocalWP / Development
+Local/
+.local/
+
+# Database
+*.sql
+*.sql.gz
+database.sql
+
+# Elementor cache
+wp-content/elementor/cache/

@@ -1,0 +1,230 @@
+/*
+Theme Name: Hello Elementor Child
+Template: hello-elementor
+Version: 1.0
+*/
+
+/* =====================================================
+   POPUP WRAPPER (Popup Maker - #pum-73)
+   Main container styling (card layout)
+===================================================== */
+
+#pum-73 .pum-content {
+    background: #fff !important;
+    border-radius: 20px !important;
+    padding: 50px 50px 40px !important;
+    max-width: 720px !important;
+    margin: 40px !important;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15) !important;
+
+    /* Typography */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px !important;
+    line-height: 44px !important;
+}
+
+/* =====================================================
+   HEADINGS & TEXT (Popup header content)
+===================================================== */
+
+#pum-73 h2 {
+    padding: 40px 0 0 40px !important;
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: #222 !important;
+    line-height: 1.2 !important;
+    margin-bottom: 10px !important;
+}
+
+#pum-73 p {
+    padding-left: 40px !important;
+    color: #777 !important;
+    font-size: 15.5px !important;
+    line-height: 1.4 !important;
+    margin-bottom: 25px !important;
+}
+
+/* =====================================================
+   FLUENT FORMS - CONVERSATIONAL LAYOUT ADJUSTMENTS
+===================================================== */
+
+/* Adjust input spacing (override default padding) */
+.ffc_inline_form.ffc_conv_wrapper .ff_conv_app .ff_conv_input {
+    padding-top: 30px !important;
+}
+
+/* Question/helper text */
+.ff_conv_app_3 .fh2 .f-text {
+    color: #32484D !important;
+    font-size: 14px !important;
+}
+
+/* Hide step counter */
+.ffc-counter {
+    display: none !important;
+}
+
+/* Ensure action button is always visible */
+.o-btn-action {
+    display: block !important;
+}
+
+/* =====================================================
+   INPUT FIELD STYLING
+===================================================== */
+
+#pum-73 .f-container input {
+    width: 100% !important;
+    height: 44px !important;
+
+    border: none !important;
+    border-radius: 4px !important;
+
+    background: #F2F2F2 !important;
+    padding: 0 !important;
+
+    font-size: 14px !important;
+    box-shadow: none !important;
+
+    transition: all 0.2s ease !important;
+}
+
+/* Hide "Press Enter" helper */
+.ff_conv_app_3 .f-enter .f-enter-desc {
+    display: none !important;
+}
+
+/* Validation messages */
+.vff .f-invalid,
+.vff .text-alert {
+    color: #f56c6c;
+    font-size: 14px !important;
+}
+
+/* =====================================================
+   BUTTON STYLING
+===================================================== */
+
+.ff_conv_app_3 .q-inner .o-btn-action,
+.ff_conv_app_3 .footer-inner-wrap .f-nav {
+    background-color: #22B712 !important;
+
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+
+    line-height: 38px !important;
+    letter-spacing: 0.5px !important;
+
+    border-radius: 12px !important;
+}
+
+/* =====================================================
+   POPUP UI CONTROLS
+===================================================== */
+
+/* Hide close (X) button */
+#pum-73 .pum-close {
+    display: none !important;
+}
+
+
+
+/* =====================================================
+   RESPONSIVE FIXES
+===================================================== */
+
+/* TABLET */
+@media (max-width: 1024px) {
+    #pum-73 .pum-content {
+        max-width: 90% !important;
+        padding: 40px 30px !important;
+        margin: 20px auto !important;
+        font-size: 28px !important;
+        line-height: 36px !important;
+    }
+
+    #pum-73 h2 {
+        padding: 20px 0 0 20px !important;
+        font-size: 24px !important;
+    }
+
+    #pum-73 p {
+        padding-left: 20px !important;
+        font-size: 14px !important;
+    }
+
+    .main-title{
+        font-size: 30px !important;
+    }
+    .second-title{
+        font-size: 26px !important;
+    }
+}
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+    #pum-73 .pum-content {
+        max-width: 95% !important;
+        padding: 25px 20px !important;
+        margin: 10px auto !important;
+        border-radius: 14px !important;
+
+        /* typography */
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+
+    #pum-73 h2 {
+        padding: 10px 0 0 10px !important;
+        font-size: 20px !important;
+    }
+
+    #pum-73 p {
+        padding-left: 10px !important;
+        font-size: 13.5px !important;
+    }
+
+    #pum-73 .f-container input {
+        height: 40px !important;
+        font-size: 13px !important;
+    }
+
+    /* buttons full width */
+    .ff_conv_app_3 .q-inner .o-btn-action,
+    .ff_conv_app_3 .footer-inner-wrap .f-nav {
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .main-title{
+        font-size: 30px !important;
+    }
+    .second-title{
+        font-size: 26px !important;
+    }
+}
+
+
+/* SMALL MOBILE */
+@media (max-width: 480px) {
+    #pum-73 .pum-content {
+        padding: 20px 15px !important;
+        font-size: 20px !important;
+    }
+
+    #pum-73 h2 {
+        font-size: 18px !important;
+    }
+
+    #pum-73 p {
+        font-size: 13px !important;
+    }
+
+    .main-title{
+        font-size: 30px !important;
+    }
+    .second-title{
+        font-size: 26px !important;
+    }
+}
