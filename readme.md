@@ -88,4 +88,4 @@ This project is for demonstration/portfolio purposes only.
 
 ---
 
-Made with ❤️ using WordPress & Elementor
+Made using WordPress & Elementor
